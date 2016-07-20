@@ -1,0 +1,7 @@
+<p> Restaurants Index </p>
+<div class="container">
+  <% @restaurants.each do |rest| %>
+    <h3> <%= rest.name %> </h3>
+    <p> <%= rest.description %> </p>
+  <% end %> 
+</div>
